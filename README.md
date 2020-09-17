@@ -1,5 +1,5 @@
 # Spam Call Unlimited
-Spam call unlimited terbaru ^_^/
+Spam call unlimited terbaru ^_^\
 Install:
 ```
 apt upgrade && apt update

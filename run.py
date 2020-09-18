@@ -57,6 +57,8 @@ def main():
        # jika ada error di mulai response
        if 'Gagal' in mulai:
         print (f"{w.i}[{w.c}{t}{w.i}] {w.i}[{w.m}GAGAL{w.i}] {w.k}Spam ke {no}")
+       elif 'hari' in mulai:
+        print (f"{w.i}[{w.c}{t}{w.i}] {w.i}[{w.m}Limit harian coba lagi 1x24 jam{w.i}]")
        # jika tidak
        else:
         print (f"{w.i}[{w.c}{t}{w.i}] {w.i}[{w.h}SUKSES{w.i}] {w.k}Spam ke {no}")
